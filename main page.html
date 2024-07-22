@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <h1>javascript test page</h1>
+        <br>
+
+        <h3><u>button change</u></h3>
+        <button type="button" onclick="changeText()">change the text</button>
+        <p id="buttonChange">this should change once you press the button below</p>
+        <br>
+
+        <h3><u>temp input with popup</u></h3>
+        <button type="button" onclick="promptTemp()">C to F</button>
+        <p id="tempChange"></p>
+        <br>
+
+        <h3><u>username and password</u></h3>
+        <h4>Username:</h4><input id="user" placeholder="maa129">
+        <br><br>
+        <h4>Password:</h4><input id="pass" type="password">
+        <br><br>
+        <button type="button" onclick="outputUP()">output user and pass</button>
+        <br>
+        <p id="userPass"></p>
+
+        <!--javascript should go in tags after all body work is done, wasn't sure whether to do externally so i did anyway-->
+        <script src="main jscript.js"></script>
+    </body>
+</html>
